@@ -4,7 +4,7 @@ const path = require("path");
 const bodyParser = require("body-parser");
 
 // Assuming you have a JavaScript version of DoctorRecommendationModel and config
-const DoctorRecommendationModel = require("./models/DoctorRecommendationModel");
+const DoctorRecommendationModel = require("../models/DoctorRecommendationModel");
 const DB_CONFIG = require("./config");
 
 const app = express();

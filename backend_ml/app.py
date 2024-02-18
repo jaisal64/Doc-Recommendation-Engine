@@ -18,7 +18,7 @@ model = DoctorRecommendationModel.load_model(model_path)
 def recommend_doctors():
     data = request.get_json(force=True)
     patient_index = data['patient_index']
-    top_n = data.get('top_n', 5)  # Default to 5 recommendations if not specified
+    top_n = data.get('top_n', 4)  # Default to 4 recommendations if not specified
     
     # Get recommendations
     recommended_doctors = model.recommend_doctors(patient_index, top_n=top_n)
