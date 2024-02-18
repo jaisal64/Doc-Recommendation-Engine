@@ -7,8 +7,11 @@ from flask import Flask, request, jsonify
 # Now import your model class from the models package
 from models.doctor_recommendation_model import DoctorRecommendationModel
 from config import DB_CONFIG
+from flask_cors import CORS
 
 app = Flask(__name__)
+
+CORS(app)
 
 
 model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'doctor_recommendation_model.pkl')
@@ -17,16 +20,18 @@ model = DoctorRecommendationModel.load_model(model_path)
 @app.route('/recommend-doctors', methods=['POST'])
 def recommend_doctors():
     data = request.get_json(force=True)
-    patient_index = data['patient_index']
+    patient_id = data['patient_id']
     top_n = data.get('top_n', 4)  # Default to 4 recommendations if not specified
     
     # Get recommendations
-    recommended_doctors = model.recommend_doctors(patient_index, top_n=top_n)
+    recommended_doctors = model.recommend_doctors(patient_id, top_n=top_n)
     
     # Convert recommendations to a list of dicts (or similar, depending on your data structure)
     recommendations = recommended_doctors.to_dict('records')
     
     return jsonify(recommendations)
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)

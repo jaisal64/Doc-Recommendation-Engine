@@ -67,15 +67,15 @@ class DoctorRecommendationModel:
         self.patients_df[['budget_max_scaled']].to_numpy()  # Use the scaled version
     ])
         
-    def recommend_doctors(self, patient_index, top_n=5):
+    def recommend_doctors(self, patient_id, top_n=5):
         # Use self to refer to instance variables
-        avg_budget = self.patients_df.loc[patient_index, 'budget_max_scaled']
+        avg_budget = self.patients_df.loc[patient_id, 'budget_max_scaled']
         
         # Filter doctors based on the average budget (scaled) of similar patients
         suitable_doctors = self.doctors_df[self.doctors_df['cost_max_scaled'] <= avg_budget]
         
         # Compute similarity between the patient preferences and doctors using self.patient_features
-        doctor_similarity = cosine_similarity([self.patient_features[patient_index]], suitable_doctors[['sex_encoded', 'location_encoded', 'cost_max_scaled']].to_numpy())
+        doctor_similarity = cosine_similarity([self.patient_features[patient_id]], suitable_doctors[['sex_encoded', 'location_encoded', 'cost_max_scaled']].to_numpy())
         
         # Find top N indices of doctors based on similarity scores
         top_doctor_indices = np.argsort(-doctor_similarity[0])[:top_n]
