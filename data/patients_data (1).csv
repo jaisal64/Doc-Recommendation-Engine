@@ -1,0 +1,101 @@
+patient_id,first_name,last_name,date_of_birth,location,language_preference,Insurance_plan,sex,ethnicity,doctors_gender_preference,location_radious_prefernce,consultation_location,problem,budget_max,communication_preference
+p1,Mark,Kirby,02-03-2003,Brookline,NA,Humana,F,Hispanic,No Preference,30 miles,virtual,NA,$300.00 ,less conversational
+p2,Lauren,Smith,8/19/1941,Back Bay,NA,MassHealth,M,NA,F,30 miles,No Preference,fever,NA,more conversational
+p3,Eric,Reynolds,12-01-2004,Cambridge,Mandarin,Humana,M,Hispanic,No Preference,50 miles,No Preference,headache,$500.00 ,less conversational
+p4,Mark,Payne,5/28/1951,Roxbury,Russian,Blue Cross Blue Shield,F,Latino,F,30 miles,virtual,cough,$200.00 ,NA
+p5,Bobby,Martinez,10/18/2005,Charlestown,Russian,MassHealth,M,White,M,No Preference,In-person,fatigue,NA,more conversational
+p6,Amy,Rivas,12/22/1978,Back Bay,English,MassHealth,Other,Middle Eastern,F,No Preference,virtual,headache,$500.00 ,less conversational
+p7,Maria,Shah,2/26/1976,Brighton,Portuguese,NA,F,Asian,No Preference,50 miles,virtual,fatigue,NA,less conversational
+p8,Tyler,Dunn,11/20/1991,Somerville,Arabic,NA,M,Black,F,30 miles,No Preference,fever,$200.00 ,more conversational
+p9,Cameron,Martinez,08-07-1945,Cambridge,NA,MassHealth,F,NA,M,No Preference,virtual,cough,$100.00 ,more conversational
+p10,David,Edwards,11-01-1963,Charlestown,English,Humana,Other,White,M,30 miles,virtual,NA,NA,more conversational
+p11,Mitchell,Diaz,8/25/1980,Charlestown,Mandarin,Aetna,Other,Middle Eastern,F,No Preference,No Preference,fever,$300.00 ,NA
+p12,Tamara,Sanchez,12-04-1999,South End,Portuguese,MassHealth,M,Asian,F,No Preference,No Preference,fatigue,$500.00 ,less conversational
+p13,Leah,Smith,11/13/1977,Roxbury,French,Cigna,M,Asian,F,30 miles,No Preference,cough,$200.00 ,NA
+p14,Andrew,Payne,8/26/1975,Brookline,NA,Aetna,Other,Hispanic,M,30 miles,No Preference,fever,$200.00 ,NA
+p15,Ann,Bryant,06-09-1983,Somerville,Spanish,Cigna,Other,Hispanic,No Preference,30 miles,In-person,NA,$200.00 ,NA
+p16,Kristin,Morales,11/14/1965,Charlestown,Spanish,Humana,M,Latino,No Preference,50 miles,In-person,cough,$100.00 ,more conversational
+p17,Gary,Morales,3/21/1966,Cambridge,NA,Blue Cross Blue Shield,Other,Latino,F,No Preference,In-person,headache,NA,less conversational
+p18,Jennifer,King,1/18/1947,Roxbury,NA,UnitedHealthcare,F,Black,No Preference,No Preference,No Preference,cough,$500.00 ,more conversational
+p19,Bradley,Murphy,1/24/1970,Brighton,Portuguese,Blue Cross Blue Shield,M,NA,F,30 miles,No Preference,cough,NA,more conversational
+p20,Nicole,Fisher,1/26/1950,Cambridge,Mandarin,MassHealth,M,Hispanic,F,No Preference,virtual,headache,$500.00 ,NA
+p21,Brandon,Bright,11/30/2003,South End,Mandarin,Cigna,Other,Asian,F,30 miles,In-person,headache,$200.00 ,less conversational
+p22,James,Howell,01-08-1937,Somerville,Mandarin,Cigna,Other,Hispanic,No Preference,No Preference,In-person,headache,$200.00 ,more conversational
+p23,Julia,Matthews,9/29/1934,Charlestown,Russian,UnitedHealthcare,F,White,No Preference,30 miles,In-person,skin rash,$300.00 ,NA
+p24,Lisa,Schroeder,2/28/1989,Charlestown,NA,Aetna,M,Hispanic,F,No Preference,virtual,cough,$100.00 ,more conversational
+p25,Adam,Berry,4/17/1946,Roxbury,French,Humana,Other,Arab,No Preference,No Preference,In-person,fever,$500.00 ,less conversational
+p26,Candace,Benjamin,8/15/1954,Brookline,Arabic,MassHealth,M,Black,M,30 miles,No Preference,back pain,$300.00 ,less conversational
+p27,Laura,Taylor,2/25/1954,Brookline,Mandarin,UnitedHealthcare,M,Black,F,50 miles,No Preference,fever,$500.00 ,NA
+p28,Brittany,Dudley,02-01-1995,Charlestown,Arabic,MassHealth,M,Arab,F,No Preference,No Preference,fever,$200.00 ,less conversational
+p29,Angela,Horton,07-02-1974,Somerville,English,Cigna,Other,NA,No Preference,No Preference,virtual,cough,$100.00 ,NA
+p30,Oscar,Rice,12/21/1956,Roxbury,Mandarin,Cigna,Other,Hispanic,No Preference,30 miles,In-person,fever,$300.00 ,less conversational
+p31,Tracey,Gilbert,6/19/2001,Brookline,Russian,UnitedHealthcare,M,Arab,M,30 miles,In-person,fatigue,$300.00 ,NA
+p32,Joe,Bass,10/17/2003,Back Bay,Russian,Cigna,F,White,No Preference,No Preference,No Preference,fever,$500.00 ,less conversational
+p33,Mitchell,Lee,12/17/2000,Brighton,Russian,Blue Cross Blue Shield,M,Arab,M,30 miles,No Preference,back pain,NA,less conversational
+p34,Rebecca,Wright,8/30/1993,Back Bay,NA,Blue Cross Blue Shield,M,Middle Eastern,F,30 miles,In-person,back pain,$500.00 ,more conversational
+p35,Michael,Wilson,4/26/1963,Brookline,NA,Cigna,M,Middle Eastern,F,30 miles,No Preference,NA,$200.00 ,more conversational
+p36,Isaiah,Lang,09-05-1967,Somerville,French,Aetna,Other,Hispanic,No Preference,No Preference,virtual,fatigue,$200.00 ,NA
+p37,Erin,Rich,1/30/1963,Brighton,Arabic,Aetna,Other,Arab,F,50 miles,No Preference,skin rash,NA,NA
+p38,Lauren,Davis,7/22/1985,Brookline,Mandarin,Aetna,M,Latino,No Preference,50 miles,No Preference,cough,$100.00 ,more conversational
+p39,Lisa,Serrano,2/28/1954,Brighton,Portuguese,NA,Other,Middle Eastern,M,30 miles,virtual,NA,$300.00 ,NA
+p40,Teresa,Stein,07-06-1958,Dorchester,Spanish,Aetna,F,Latino,M,30 miles,In-person,fever,$300.00 ,less conversational
+p41,Connie,Pratt,3/14/1939,Charlestown,Mandarin,Cigna,Other,Hispanic,No Preference,30 miles,virtual,fatigue,NA,less conversational
+p42,Anthony,Scott,8/23/1988,South End,English,Cigna,Other,Arab,No Preference,No Preference,No Preference,fever,$300.00 ,NA
+p43,Kayla,Black,08-05-1951,Somerville,NA,UnitedHealthcare,F,Latino,No Preference,No Preference,No Preference,fatigue,$200.00 ,less conversational
+p44,Matthew,Santos,3/25/1997,Brookline,Russian,MassHealth,F,NA,No Preference,50 miles,No Preference,cough,$100.00 ,NA
+p45,Fernando,Hayes,5/26/1983,Dorchester,Portuguese,Aetna,M,Black,M,30 miles,virtual,fatigue,$200.00 ,more conversational
+p46,Michael,Johnson,6/27/1990,Brighton,Arabic,Cigna,Other,Hispanic,M,50 miles,No Preference,fever,$100.00 ,NA
+p47,Bryan,Harrison,8/21/1994,Roxbury,English,NA,M,Arab,F,50 miles,In-person,cough,$200.00 ,more conversational
+p48,Krystal,Foster,1/28/1996,Back Bay,Mandarin,Blue Cross Blue Shield,Other,Arab,M,50 miles,No Preference,headache,$500.00 ,more conversational
+p49,Amy,Guerrero,5/20/1956,Back Bay,Arabic,NA,M,Black,M,No Preference,In-person,fatigue,$200.00 ,more conversational
+p50,Brian,Maddox,12-11-1940,South End,French,MassHealth,Other,Asian,F,No Preference,No Preference,cough,$300.00 ,NA
+p51,Lindsey,Smith,06-03-1963,Dorchester,Arabic,UnitedHealthcare,Other,Arab,M,50 miles,No Preference,fatigue,$300.00 ,NA
+p52,Austin,Clark,1/27/1938,Charlestown,NA,Humana,F,Black,M,30 miles,virtual,headache,$300.00 ,less conversational
+p53,Lisa,Lindsey,5/18/1942,Dorchester,Portuguese,Cigna,Other,White,No Preference,30 miles,virtual,NA,NA,less conversational
+p54,Carolyn,Brooks,11-12-1953,Charlestown,Mandarin,MassHealth,F,Hispanic,F,30 miles,virtual,back pain,$100.00 ,NA
+p55,Chad,Smith,12-10-1995,Back Bay,French,MassHealth,Other,Middle Eastern,F,No Preference,virtual,skin rash,$300.00 ,NA
+p56,Dennis,Lopez,07-01-1993,Roxbury,French,NA,F,Hispanic,F,30 miles,virtual,cough,NA,NA
+p57,Rachel,White,1/26/1998,Brookline,Portuguese,UnitedHealthcare,Other,Middle Eastern,M,50 miles,virtual,fever,$200.00 ,NA
+p58,Tammy,Lee,8/25/1959,Charlestown,Spanish,Blue Cross Blue Shield,Other,Middle Eastern,No Preference,No Preference,No Preference,fever,$300.00 ,NA
+p59,Dana,Greene,07-07-1949,Brighton,Spanish,UnitedHealthcare,Other,NA,F,No Preference,virtual,NA,NA,more conversational
+p60,Angela,Rivera,9/19/1956,Cambridge,Portuguese,MassHealth,F,Middle Eastern,No Preference,50 miles,In-person,NA,$300.00 ,more conversational
+p61,Charles,Callahan,10/26/1933,Charlestown,Mandarin,NA,M,Black,No Preference,30 miles,In-person,back pain,$500.00 ,more conversational
+p62,Daniel,Lester,09-03-1982,Back Bay,Russian,UnitedHealthcare,Other,NA,F,30 miles,No Preference,NA,NA,NA
+p63,Justin,Rodriguez,7/26/1939,Somerville,English,UnitedHealthcare,Other,Black,No Preference,50 miles,No Preference,fatigue,$500.00 ,less conversational
+p64,Ashley,Patel,1/18/1991,Back Bay,Mandarin,Aetna,F,Black,M,30 miles,In-person,back pain,$100.00 ,more conversational
+p65,Christopher,Lee,8/26/1948,Roxbury,Portuguese,NA,F,Latino,No Preference,No Preference,In-person,headache,NA,NA
+p66,Sarah,Thompson,8/30/1955,Dorchester,French,UnitedHealthcare,M,Hispanic,M,50 miles,virtual,NA,$300.00 ,more conversational
+p67,James,Villarreal,6/16/1944,Roxbury,Arabic,Blue Cross Blue Shield,M,White,F,No Preference,virtual,fever,$200.00 ,less conversational
+p68,Kimberly,Smith,06-01-1948,Somerville,English,UnitedHealthcare,Other,Latino,M,50 miles,virtual,fatigue,$300.00 ,NA
+p69,Mario,Jenkins,3/31/1994,Somerville,Russian,UnitedHealthcare,F,Asian,F,30 miles,No Preference,cough,$100.00 ,more conversational
+p70,Carl,Lee,02-01-1948,Roxbury,French,Humana,M,Middle Eastern,M,50 miles,In-person,cough,$300.00 ,NA
+p71,Michael,Camacho,7/31/1967,Roxbury,Mandarin,Blue Cross Blue Shield,Other,Hispanic,M,30 miles,virtual,fatigue,$500.00 ,less conversational
+p72,April,Wright,9/21/1994,Brighton,French,UnitedHealthcare,F,Asian,No Preference,50 miles,No Preference,headache,NA,less conversational
+p73,James,Tyler,4/30/1998,South End,Spanish,UnitedHealthcare,F,White,No Preference,No Preference,In-person,back pain,$200.00 ,NA
+p74,Maria,Mcbride,09-02-2001,Back Bay,English,Blue Cross Blue Shield,M,Asian,F,30 miles,virtual,cough,NA,NA
+p75,Catherine,Potter,7/20/1936,Brighton,English,Blue Cross Blue Shield,Other,White,No Preference,50 miles,virtual,fever,NA,more conversational
+p76,Matthew,West,05-02-1966,South End,Arabic,UnitedHealthcare,F,White,F,50 miles,In-person,headache,$300.00 ,NA
+p77,Mark,Stone,03-11-1999,Dorchester,French,MassHealth,F,Hispanic,No Preference,50 miles,No Preference,NA,$100.00 ,less conversational
+p78,Marie,Medina,7/22/1951,Roxbury,NA,Aetna,Other,Arab,No Preference,No Preference,No Preference,headache,$300.00 ,more conversational
+p79,Adam,Chavez,08-11-1970,Cambridge,Russian,Blue Cross Blue Shield,M,Hispanic,M,No Preference,In-person,headache,$300.00 ,NA
+p80,Anthony,Stevens,8/19/1986,Somerville,French,NA,M,Hispanic,M,No Preference,In-person,skin rash,$100.00 ,more conversational
+p81,Hunter,Stewart,4/28/1975,Back Bay,Russian,NA,Other,Asian,M,50 miles,virtual,fatigue,$500.00 ,less conversational
+p82,Alex,Tate,11/17/1974,Back Bay,Spanish,MassHealth,F,Black,No Preference,30 miles,No Preference,back pain,$200.00 ,more conversational
+p83,Thomas,Moran,8/25/1989,Brookline,Spanish,UnitedHealthcare,M,Hispanic,F,30 miles,In-person,headache,NA,more conversational
+p84,Erin,Nielsen,12-01-1939,Back Bay,Arabic,MassHealth,Other,Arab,F,30 miles,virtual,skin rash,NA,more conversational
+p85,Michael,Bailey,6/21/1981,Dorchester,Russian,UnitedHealthcare,F,NA,M,No Preference,virtual,NA,NA,less conversational
+p86,Rodney,Martin,11/19/1978,Cambridge,English,UnitedHealthcare,Other,Middle Eastern,M,30 miles,In-person,skin rash,NA,less conversational
+p87,Ashley,Reid,4/24/1973,Brookline,Portuguese,NA,F,Latino,F,50 miles,In-person,skin rash,NA,NA
+p88,Katherine,Mack,3/14/1947,Cambridge,Russian,UnitedHealthcare,F,White,F,30 miles,In-person,NA,$100.00 ,more conversational
+p89,Brian,Guerrero,10/18/1947,Dorchester,Russian,Humana,Other,Latino,F,No Preference,In-person,fever,$300.00 ,more conversational
+p90,Joshua,Holmes,10-12-1961,Somerville,French,Humana,M,Asian,F,50 miles,In-person,cough,$100.00 ,NA
+p91,Angelica,Grimes,12/30/1961,Brookline,Portuguese,Humana,Other,NA,M,50 miles,No Preference,fever,$300.00 ,NA
+p92,Anthony,Day,07-08-1976,Dorchester,Portuguese,UnitedHealthcare,Other,Arab,F,No Preference,In-person,headache,$200.00 ,more conversational
+p93,Kelsey,Johnson,9/22/1975,Back Bay,Spanish,Humana,M,Arab,M,No Preference,virtual,headache,$300.00 ,NA
+p94,Lee,Jones,9/25/1939,Cambridge,Mandarin,Cigna,Other,Middle Eastern,F,No Preference,No Preference,fever,NA,less conversational
+p95,Patricia,Hendrix,2/28/1969,Beacon Hill,Russian,UnitedHealthcare,Other,White,M,No Preference,No Preference,back pain,$500.00 ,more conversational
+p96,Elizabeth,Martinez,6/25/1989,Brighton,Mandarin,Cigna,M,White,M,No Preference,In-person,back pain,$100.00 ,less conversational
+p97,Daniel,Flores,05-10-1989,South End,Arabic,MassHealth,Other,Arab,F,50 miles,No Preference,NA,NA,more conversational
+p98,Katherine,Phillips,12/25/1976,Charlestown,French,Humana,Other,Arab,M,50 miles,In-person,back pain,$100.00 ,NA
+p99,Brandi,Herrera,5/28/1959,Roxbury,Mandarin,Blue Cross Blue Shield,F,Hispanic,M,No Preference,In-person,skin rash,$100.00 ,more conversational
+p100,Brent,Robinson,4/29/1948,Back Bay,English,MassHealth,M,Black,F,No Preference,No Preference,NA,$200.00 ,more conversational
