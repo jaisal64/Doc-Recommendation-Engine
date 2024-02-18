@@ -1,4 +1,4 @@
-"### Team Katara" 
+### Team Katara 
 
 ### Flask Backend README Draft
 # Primary Doctor Recommendation System - Backend
@@ -17,6 +17,7 @@ This repository houses the backend logic for the Primary Doctor Recommendation S
 - Integration with SQL database for storing user profiles, preferences, and match histories.
 - Machine learning model serving for personalized doctor recommendations.
 
+## Link to the front-end Github: https://github.com/snigdhapulim/frontweb
 ## Getting Started
 
 ### Prerequisites
