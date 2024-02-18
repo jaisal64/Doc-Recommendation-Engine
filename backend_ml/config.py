@@ -7,4 +7,4 @@ DB_CONFIG = {
     'raise_on_warnings': True
 }
 
-model = DoctorRecommendationModel(db_config=db_config)
+# model = DoctorRecommendationModel(db_config=db_config)
